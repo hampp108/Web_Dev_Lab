@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Navbar and Card</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    nav { position: sticky; top: 0; background: #244a66; padding: 16px; color: white; }
+    nav a { color: white; margin-right: 18px; text-decoration: none; }
+    main { padding: 25px; }
+    .card { position: relative; width: 280px; padding: 20px; margin: 40px auto; background: #e8eef2; border-radius: 8px; }
+    .label { position: absolute; top: -12px; right: 12px; background: #e5a33b; padding: 5px 10px; border-radius: 4px; }
+    .space { height: 700px; }
+  </style>
+</head>
+<body>
+  <nav><a href="#">Home</a><a href="#card">Card</a></nav>
+  <main>
+    <h1>CSS Positioning</h1>
+    <p>Scroll the page to see the sticky navigation bar.</p>
+    <article class="card" id="card"><span class="label">Featured</span><h2>Project Card</h2><p>This label is placed over the card using absolute positioning.</p></article>
+    <div class="space"></div>
+  </main>
+</body>
+</html>
