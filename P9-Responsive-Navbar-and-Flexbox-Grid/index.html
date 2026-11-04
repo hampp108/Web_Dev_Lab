@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; }
+    nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 16px; background: #244a66; color: white; }
+    nav a { color: white; text-decoration: none; margin: 6px 10px; }
+    .cards { display: flex; flex-wrap: wrap; gap: 16px; padding: 20px; }
+    .card { flex: 1 1 220px; padding: 22px; background: #edf2f5; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <nav><strong>My Site</strong><div><a href="#">Home</a><a href="#">About</a><a href="#">Projects</a></div></nav>
+  <main class="cards">
+    <article class="card"><h2>HTML</h2><p>Page structure.</p></article>
+    <article class="card"><h2>CSS</h2><p>Page styling.</p></article>
+    <article class="card"><h2>JavaScript</h2><p>Page interaction.</p></article>
+  </main>
+</body>
+</html>
