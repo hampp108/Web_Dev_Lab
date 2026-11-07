@@ -70,6 +70,11 @@ Web_Dev_Lab/
 4. Open its `index.html` file using Live Server.
 5. For CSS-only practicals, link the stylesheet to an HTML file to test the styles.
 
+
+The HTML and CSS practicals can be opened in a browser.
+Git command practicals contain the commands and steps to practise in a local repository.
+
+
 ## Conclusion
 This project helped me understand how websites are structured, styled and managed using GitHub.
 
@@ -81,6 +86,3 @@ Seemakurthi Koushitha
 USN: 2392608015
 
 Web Development Lab
-
-The HTML and CSS practicals can be opened in a browser.
-Git command practicals contain the commands and steps to practise in a local repository.
