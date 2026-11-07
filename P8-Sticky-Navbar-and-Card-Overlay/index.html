@@ -1,25 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sticky Navbar and Card</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; }
-    nav { position: sticky; top: 0; background: #244a66; padding: 16px; color: white; }
-    nav a { color: white; margin-right: 18px; text-decoration: none; }
-    main { padding: 25px; }
-    .card { position: relative; width: 280px; padding: 20px; margin: 40px auto; background: #e8eef2; border-radius: 8px; }
-    .label { position: absolute; top: -12px; right: 12px; background: #e5a33b; padding: 5px 10px; border-radius: 4px; }
-    .space { height: 700px; }
-  </style>
+    <title>Sticky Navbar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <nav><a href="#">Home</a><a href="#card">Card</a></nav>
-  <main>
-    <h1>CSS Positioning</h1>
-    <p>Scroll the page to see the sticky navigation bar.</p>
-    <article class="card" id="card"><span class="label">Featured</span><h2>Project Card</h2><p>This label is placed over the card using absolute positioning.</p></article>
-    <div class="space"></div>
-  </main>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>This is my website.</p>
+    </section>
+
+    <section class="card">
+        <img src="https://placehold.co/500x250"
+             alt="Sample project">
+
+        <div class="overlay">
+            <h2>My Project</h2>
+            <p>Created using HTML and CSS.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is the about section.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: example@gmail.com</p>
+    </section>
+
 </body>
 </html>
