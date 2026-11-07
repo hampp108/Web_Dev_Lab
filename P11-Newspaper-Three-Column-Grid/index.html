@@ -1,22 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Campus News</title>
-<style>
-body{margin:0;padding:20px;font-family:Georgia,serif;color:#222}
-header{text-align:center;border-bottom:3px solid #222;margin-bottom:20px}
-.news{display:grid;grid-template-columns:2fr 1fr 1fr;gap:20px}
-article{padding:14px;border-right:1px solid #ccc}
-@media(max-width:700px){.news{grid-template-columns:1fr}article{border-right:0;border-bottom:1px solid #ccc}}
-</style>
+    <title>Daily News</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header><h1>THE CAMPUS TIMES</h1><p>Student Edition</p></header>
-<main class="news">
-<article><h2>College Tech Fest</h2><p>Students are preparing projects and activities for the upcoming technology festival. The event will include demonstrations and team activities.</p></article>
-<article><h2>Library Update</h2><p>The library has added new books and study spaces for students.</p></article>
-<article><h2>Sports Day</h2><p>Registration for the annual sports events is now open.</p></article>
-</main>
+
+    <header>
+        <h1>THE DAILY NEWS</h1>
+        <p>Your Everyday News Paper</p>
+    </header>
+
+    <main class="container">
+
+        <section class="main-news">
+            <h2>Technology is Changing the World</h2>
+            <p>
+                Technology plays an important role in our daily lives.
+                New inventions are changing education, communication
+                and business.
+            </p>
+        </section>
+
+        <section class="side-news">
+            <h2>Sports News</h2>
+            <p>Latest updates from the world of sports.</p>
+        </section>
+
+        <section class="third-news">
+            <h2>Education News</h2>
+            <p>New learning opportunities for students.</p>
+        </section>
+
+        <section class="bottom-news">
+            <h2>Entertainment</h2>
+            <p>Latest movies, music and entertainment updates.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 The Daily News</p>
+    </footer>
+
 </body>
 </html>
