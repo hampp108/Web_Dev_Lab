@@ -1,12 +1,8 @@
 # Web_Dev_Lab
 
 Programming for Web Development - I Laboratory practical work (P1-P13).
-
-# Web Development Lab
-
-This repository contains the practical work completed as part of my Web Development Lab. It includes HTML, CSS, Flexbox, CSS Grid and Git/GitHub exercises.
-
-The practicals helped me understand how websites are structured, styled and managed using GitHub.
+This repository contains the practical work completed as part of my Web Development Lab. 
+It includes HTML, CSS, Flexbox, CSS Grid and Git/GitHub exercises.
 
 ## Practicals
 
@@ -74,6 +70,8 @@ Web_Dev_Lab/
 4. Open its `index.html` file using Live Server.
 5. For CSS-only practicals, link the stylesheet to an HTML file to test the styles.
 
+## Conclusion
+This project helped me understand how websites are structured, styled and managed using GitHub.
 
 
 ## By
