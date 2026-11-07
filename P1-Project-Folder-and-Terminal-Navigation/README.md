@@ -27,7 +27,7 @@ To create a project folder and use terminal commands to move between folders and
 
 ## Procedure
 
-Run the commands one by one in the terminal:
+Running the commands in the terminal:
 
 ```bash
 pwd
@@ -42,8 +42,6 @@ cd Web_Dev_Project
 ls
 ```
 
-If you are using Windows Command Prompt instead of macOS/Linux, use `type nul > index.html`, `type nul > style.css`, and `type nul > script.js` in place of the `touch` command.
-
 ## Expected folder structure
 
 ```text
@@ -53,6 +51,9 @@ Web_Dev_Project/
 ├── style.css
 └── script.js
 ```
+
+<img width="2142" height="1440" alt="image" src="https://github.com/user-attachments/assets/7f47bfec-c496-4510-b638-7225e388b5a4" />
+
 
 ## Result
 The project folder and its basic files were created. The terminal commands were used to view the current location, enter a folder, list its contents and return to the parent directory.
