@@ -15,6 +15,8 @@ git tag
 git push origin main
 git push origin v1.0
 ```
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cb13af78-737c-41ea-80d4-74d31c580b35" />
 
-## Result
+## What i did/Conclusion
+
 A README explains the project, while a Git tag marks a particular version of the repository.
