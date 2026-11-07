@@ -1,24 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Flexbox and Grid Comparison</title>
-<style>
-body{margin:0;padding:25px;font-family:Arial,sans-serif}
-.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:15px;background:#eaf0f3}
-.toolbar a{text-decoration:none;color:#244a66}
-.layout{display:grid;grid-template-columns:2fr 1fr;gap:18px;margin-top:20px}
-.box{padding:20px;background:#f2f5f7}
-@media(max-width:650px){.layout{grid-template-columns:1fr}}
-</style>
+    <title>Flexbox vs Grid</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<h1>Choosing Flexbox and Grid</h1>
-<nav class="toolbar"><strong>Shared Layout</strong><div><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a></div></nav>
-<main class="layout">
-<section class="box"><h2>Main Content</h2><p>CSS Grid is used for the two-dimensional page layout with rows and columns.</p></section>
-<aside class="box"><h2>Sidebar</h2><p>Flexbox is useful for arranging the navigation items in one direction.</p></aside>
-</main>
-<p>In this example, both methods are used where they fit best.</p>
+
+    <header>
+        <h1>Flexbox vs CSS Grid</h1>
+    </header>
+
+    <h2>Flexbox Layout</h2>
+
+    <div class="flex-container">
+
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Used for webpage structure.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Used for webpage styling.</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Used for webpage interaction.</p>
+        </div>
+
+    </div>
+
+    <h2>Grid Layout</h2>
+
+    <div class="grid-container">
+
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Used for webpage structure.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Used for webpage styling.</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Used for webpage interaction.</p>
+        </div>
+
+    </div>
+
 </body>
 </html>
