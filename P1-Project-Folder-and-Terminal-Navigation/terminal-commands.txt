@@ -1,17 +1,13 @@
 P1 - Terminal commands
 
-pwd                         - Show the current directory
-mkdir Web_Dev_Project       - Create the project folder
-cd Web_Dev_Project          - Enter the project folder
-mkdir assets                - Create an assets folder
-touch index.html            - Create an HTML file (macOS/Linux)
-touch style.css             - Create a CSS file (macOS/Linux)
-touch script.js             - Create a JavaScript file (macOS/Linux)
-ls                          - List folder contents
-cd ..                       - Move to the parent directory
-cd Web_Dev_Project          - Enter the project folder again
+pwd                  
+mkdir Web_Dev_Project      
+cd Web_Dev_Project       
+mkdir assets            
+touch index.html            
+touch style.css      
+touch script.js         
+ls                     
+cd ..                     
+cd Web_Dev_Project         
 
-Windows Command Prompt alternative:
-type nul > index.html
-type nul > style.css
-type nul > script.js
