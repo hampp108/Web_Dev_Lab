@@ -74,10 +74,12 @@ Web_Dev_Lab/
 This project helped me understand how websites are structured, styled and managed using GitHub.
 
 
-## By
+## Student Details
 
 Seemakurthi Koushitha
+
 USN: 2392608015
+
 Web Development Lab
 
 The HTML and CSS practicals can be opened in a browser.
