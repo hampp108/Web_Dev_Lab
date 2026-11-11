@@ -1,62 +1,50 @@
+```css
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    margin: 0;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background-color: #22223b;
+    background-color: #263b5e;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 30px;
 }
 
 nav {
-    margin-top: 15px;
+    background-color: #182943;
+    padding: 15px;
+    text-align: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 15px;
+    margin: 20px;
+    font-size: 16px;
 }
 
 nav a:hover {
-    color: #c9ada7;
+    color: #ffd166;
 }
 
 section {
-    padding: 40px;
-    margin: 20px;
     background-color: white;
-    border-radius: 10px;
-}
-
-#home {
-    text-align: center;
-    background-color: #c9ada7;
-    padding: 70px;
-}
-
-h2 {
-    color: #4a4e69;
-}
-
-ul li {
-    padding: 8px;
-}
-
-.project {
-    background-color: #f2e9e4;
-    padding: 15px;
-    margin: 15px 0;
+    margin: 25px;
+    padding: 25px;
     border-radius: 8px;
 }
 
+h2 {
+    color: #263b5e;
+}
+
 footer {
-    background-color: #22223b;
+    background-color: #263b5e;
     color: white;
     text-align: center;
     padding: 15px;
 }
+```
