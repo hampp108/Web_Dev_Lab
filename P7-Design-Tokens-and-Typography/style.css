@@ -1,99 +1,17 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 35px 20px;
-  font-family: Arial, sans-serif;
-  color: #26344b;
-  background: #f4f7fb;
-  line-height: 1.7;
-}
-
-.showcase {
-  max-width: 850px;
-  margin: auto;
-  padding: 35px;
-  background: #fff;
-  border-radius: 12px;
-}
-
-.eyebrow {
-  color: #244b8f;
-  font-size: 0.78rem;
-  font-weight: bold;
-  letter-spacing: 1.4px;
-}
-
-h1 {
-  font-size: 2.5rem;
-  line-height: 1.15;
-}
-
-.lead,
-small {
-  color: #68748a;
-}
-
-section {
-  margin-top: 28px;
-  padding-top: 16px;
-  border-top: 1px solid #e5eaf2;
-}
-
-section h2 {
-  color: #244b8f;
-}
-
-.sample-title {
-  margin-bottom: 0;
-}
-
-.swatches {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-}
-
-.swatches div {
-  padding: 22px 10px;
-  text-align: center;
-  border-radius: 8px;
-  font-weight: bold;
-}
-
-.primary,
-button {
-  color: #fff;
-  background: #244b8f;
-}
-
-.accent {
-  background: #e59b4a;
-}
-
-.surface {
-  background: #edf1f7;
-}
-
-.ink {
-  color: #fff;
-  background: #26344b;
-}
-
-button {
-  padding: 11px 17px;
-  border: 0;
-  border-radius: 7px;
-}
-
-@media (max-width: 600px) {
-  .showcase {
-    padding: 22px;
-  }
-
-  .swatches {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 20px; font: 16px/1.7 Arial, sans-serif; color: #26344b; background: #f4f7fb; }
+main { max-width: 850px; margin: auto; padding: 30px; background: #fff; border-radius: 12px; }
+.eyebrow, h2 { color: #244b8f; }
+.eyebrow { font-size: .78rem; letter-spacing: 1.4px; }
+.eyebrow, .grid div { font-weight: bold; }
+h1 { font-size: 2.5rem; line-height: 1.15; margin-bottom: 0; }
+.muted, small { color: #68748a; }
+section { margin-top: 28px; padding-top: 16px; border-top: 1px solid #e5eaf2; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; }
+.grid div { padding: 20px 10px; text-align: center; border-radius: 8px; }
+.primary, .ink, button { color: #fff; }
+.primary, button { background: #244b8f; }
+.accent { background: #e59b4a; }
+.surface { background: #edf1f7; }
+.ink { background: #26344b; }
+button { padding: 11px 17px; border: 0; border-radius: 7px; }
